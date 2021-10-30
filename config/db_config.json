@@ -1,0 +1,10 @@
+{
+  "db_name": "file_manage",
+  "sql_insert": "INSERT INTO %s VALUES (%s)",
+  "sql_delete_by_key": "DELETE FROM %s WHERE id=?",
+  "sql_update_by_key": "UPDATE %s SET %s WHERE id=?",
+  "sql_select_by_key": "SELECT * FROM %s WHERE id=? LIMIT 1",
+  "sql_select": "SELECT * FROM %s %s",
+  "sql_drop_table": "DROP TABLE %s",
+  "sql_table_exists": "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name = ? LIMIT 1"
+}

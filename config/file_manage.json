@@ -1,0 +1,14 @@
+{
+  "base_dir": "/Users/zyw",
+  "exclude": [
+    ".*"
+  ],
+  "include": [
+    "*.pdf",
+    "*.doc",
+    "*.gif",
+    "*.mp3",
+    "*.wav",
+    "*.mp4"
+  ]
+}
